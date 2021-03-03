@@ -1,0 +1,13 @@
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.exe
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.deps.json
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.runtimeconfig.json
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.runtimeconfig.dev.json
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.dll
+D:\MyPrograms\DOt_Net\LibraryApp\bin\Debug\netcoreapp3.1\LibraryApp.pdb
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.csprojAssemblyReference.cache
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.AssemblyInfoInputs.cache
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.AssemblyInfo.cs
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.csproj.CoreCompileInputs.cache
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.dll
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.pdb
+D:\MyPrograms\DOt_Net\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.genruntimeconfig.cache
