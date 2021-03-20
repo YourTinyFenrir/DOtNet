@@ -1,0 +1,20 @@
+﻿@using LibraryWebApp.BLL.DTO
+@model IEnumerable<BookDTO>
+
+<form method="post">
+    <label>ID читателя:</label><br />
+    <input type="text" name="readerId" /><br /><br />
+    <p>
+        <label>Выберите книгу:</label>
+        <select name="bookId">
+            @foreach(BookDTO book in Model)
+            {
+                <option value=@book.Id>@book.Author @book.Name</option>
+            }
+        </select>
+    </p>
+
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>
