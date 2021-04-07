@@ -1,5 +1,4 @@
-﻿using LibraryWebApp.DAL.Entities;
-using System;
+﻿using System;
 
 namespace LibraryWebApp.BLL.DTO
 {
@@ -11,6 +10,6 @@ namespace LibraryWebApp.BLL.DTO
 
         public String Name { get; set; }
 
-        public virtual Reader Owner { get; set; }
+        public virtual ReaderDTO Owner { get; set; }
     }
 }

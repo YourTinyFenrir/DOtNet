@@ -1,0 +1,19 @@
+﻿@using Client.Models
+
+@model IEnumerable<BookDTO>
+
+<form method="post">
+    <p>
+        <label>Выберите книгу:</label>
+        <select name="bookId">
+            @foreach (BookDTO book in Model)
+            {
+                <option value=@book.Id>@book.Author @book.Name</option>
+            }
+        </select>
+    </p>
+
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>

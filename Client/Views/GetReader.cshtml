@@ -1,0 +1,26 @@
+﻿@using Client.Models
+
+@model ReaderDTO
+
+<h3>Информация о читателе</h3>
+<div>
+    ID - @Model.Id<br/>
+    Фамилия - @Model.Surname<br />
+    Имя - @Model.Name<br />
+    <br />
+    @if (Model.BookList.Count == 0)
+    {
+        <li>Список книг пуст</li>
+    }
+    else
+    {
+        foreach (BookDTO book in Model.BookList)
+        {
+            <li>ID - @book.Id</li>
+            <li>Автор - @book.Author</li>
+            <li>Название - @book.Name</li>
+            <br/>
+        }
+    }
+</div>
+

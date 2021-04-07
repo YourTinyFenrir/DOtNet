@@ -8,8 +8,8 @@ namespace LibraryWebApp.DAL.Repositories
     public class LibUnitOfWork : IUnitOfWork
     {
         private LibContext db;
-        private BookRepository phoneRepository;
-        private ReaderRepository orderRepository;
+        private BookRepository bookRepository;
+        private ReaderRepository readerRepository;
 
         public LibUnitOfWork()
         {
@@ -23,13 +23,23 @@ namespace LibraryWebApp.DAL.Repositories
             db = new LibContext(options);
         }
 
+        public LibUnitOfWork(BookRepository repo)
+        {
+            bookRepository = repo;
+        }
+
+        public LibUnitOfWork(ReaderRepository repo)
+        {
+            readerRepository = repo;
+        }
+
         public IRepository<Book> Books
         {
             get
             {
-                if (phoneRepository == null)
-                    phoneRepository = new BookRepository(db);
-                return phoneRepository;
+                if (bookRepository == null)
+                    bookRepository = new BookRepository(db);
+                return bookRepository;
             }
         }
 
@@ -37,9 +47,9 @@ namespace LibraryWebApp.DAL.Repositories
         {
             get
             {
-                if (orderRepository == null)
-                    orderRepository = new ReaderRepository(db);
-                return orderRepository;
+                if (readerRepository == null)
+                    readerRepository = new ReaderRepository(db);
+                return readerRepository;
             }
         }
 

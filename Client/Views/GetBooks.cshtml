@@ -1,0 +1,22 @@
+﻿@using Client.Models
+
+@model IEnumerable<BookDTO>
+
+<h3>Список имеющихся в библиотеке книг</h3>
+@foreach (BookDTO book in Model)
+{
+<div>
+    <li>ID - @book.Id</li>
+    <li>Автор - @book.Author</li>
+    <li>Название - @book.Name</li>
+    @if (book.Owner == null)
+    {
+        <li>Книга имеется в наличии</li>
+    }
+    else
+    {
+        <li>Книгу взял(а) @book.Owner.Surname @book.Owner.Name (ID @book.Owner.Id)</li>
+    }
+    <br/>
+</div>
+}

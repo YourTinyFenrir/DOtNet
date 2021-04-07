@@ -5,7 +5,6 @@ using LibraryWebApp.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using AutoMapper;
-using System.Threading.Tasks;
 
 namespace LibraryWebApp.BLL.Services
 {

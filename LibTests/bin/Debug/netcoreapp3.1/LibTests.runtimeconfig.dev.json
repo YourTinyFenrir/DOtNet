@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\CSKAN\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CSKAN\\.nuget\\packages"
+    ]
+  }
+}

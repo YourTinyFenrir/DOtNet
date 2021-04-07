@@ -1,126 +1,79 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using LibraryWebApp.BLL.Interfaces;
 using LibraryWebApp.BLL.DTO;
-using System.Collections.Generic;
-using System;
 
 namespace LibraryWebApp.WebAPI.Controllers
 {
-    public class LibController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class LibController : ControllerBase
     {
-        private ILibService service;
+        ILibService service;
 
         public LibController(ILibService service)
         {
             this.service = service;
         }
 
-        [HttpGet]
-        public IActionResult CreateBook()
+        [HttpPut]
+        public void CreateBook(BookDTO bookDTO)
         {
-            return View("~/Pages/CreateBook.cshtml");
+            service.CreateBook(bookDTO);
         }
 
-        [HttpPost]
-        public IActionResult CreateBook(String author, String name)
+        [HttpPut]
+        public void CreateReader(ReaderDTO readerDTO)
         {
-         
-            BookDTO bDTO = new BookDTO
-            {
-                Author = author,
-                Name = name,
-            };
-            service.CreateBook(bDTO);
-
-            return Content("Книга добавлена");
+            service.CreateReader(readerDTO);
         }
 
         [HttpGet]
-        public IActionResult CreateReader()
-        {
-            return View("~/Pages/CreateReader.cshtml");
-        }
-
-        [HttpPost]
-        public IActionResult CreateReader(String name, String surname)
-        {
-            ReaderDTO rDTO = new ReaderDTO
-            {
-                Name = name,
-                Surname = surname,
-            };
-            service.CreateReader(rDTO);
-
-            return Content("Читатель добавлен");
-        }
-
-        public IActionResult GetBooks()
+        public IEnumerable<BookDTO> GetBooks()
         {
             IEnumerable<BookDTO> books = service.GetBooks();
-            return View("~/Pages/GetBooks.cshtml", books);
-        }
-
-        public IActionResult GetReader(int? readerId)
-        {
-            try
-            {
-                ReaderDTO reader = service.GetReader(readerId);
-                return View("~/Pages/GetReader.cshtml", reader);
-            }
-            catch (Exception ex)
-            {
-                return Content(ex.Message);
-            }
+            return books;
         }
 
         [HttpGet]
-        public IActionResult GiveBook()
+        public ReaderDTO GetReader(int? readerId)
         {
-            var freeBooks = service.GetFreeBooks();
-            return View("~/Pages/GiveBook.cshtml", freeBooks);
-        }
-
-        [HttpPost]
-        public IActionResult GiveBook(int? bookId, int? readerId)
-        {
-            try
-            {
-                service.GiveBook(readerId, bookId);
-                return Content("Данные о выдаче книги сохранены");
-            }
-            catch (Exception ex)
-            {
-                return Content(ex.Message);
-            }
+            ReaderDTO reader = service.GetReader(readerId);
+            return reader;
         }
 
         [HttpGet]
-        public IActionResult ReturnBook(int? readerId)
+        public IEnumerable<BookDTO> GetFreeBooks()
         {
-            try
-            {
-                var reader = service.GetReader(readerId);
-                return View("~/Pages/ReturnBook.cshtml", reader.BookList);
-            }
-            catch (Exception ex)
-            {
-                return Content(ex.Message);
-            }
+            IEnumerable<BookDTO> books = service.GetFreeBooks();
+            return books;
         }
 
-        [HttpPost]
-        public IActionResult ReturnBook(int? bookId, int? readerId)
+        [HttpGet]
+        public IEnumerable<BookDTO> GiveBook()
         {
-            try
-            {
-                service.ReturnBook(bookId, readerId);
-                return Content("Данные о возврате книги сохранены");
-            }
-            catch (Exception ex)
-            {
-                return Content(ex.Message);
-            }
+            IEnumerable<BookDTO> freeBooks = service.GetFreeBooks();
+            return freeBooks;
         }
 
+        [HttpPut]
+        public void GiveBook(int? bookId, int? readerId)
+        {
+            service.GiveBook(bookId, readerId);
+        }
+
+
+        [HttpGet]
+        public List<BookDTO> ReturnBook(int? readerId)
+        {
+            ReaderDTO reader = service.GetReader(readerId);
+            return reader.BookList;
+        }
+
+        [HttpPut]
+        public void ReturnBook(int? bookId, int? readerId)
+        {
+            service.ReturnBook(bookId, readerId);
+        }
     }
 }

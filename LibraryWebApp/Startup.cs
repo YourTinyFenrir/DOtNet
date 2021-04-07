@@ -26,7 +26,6 @@ namespace LibraryWebApp
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<LibContext>(options => options.UseSqlServer(connection));
-            services.AddMvc();
             services.AddControllers();
             services.AddScoped<IUnitOfWork, LibUnitOfWork>();
             services.AddScoped<ILibService, LibService>();
@@ -53,9 +52,7 @@ namespace LibraryWebApp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Lib}/{action=CreateBook}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }

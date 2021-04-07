@@ -11,6 +11,7 @@ namespace LibraryWebApp.DAL.Context
         public LibContext(DbContextOptions<LibContext> options)
             : base(options)
         {
+            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
     }
