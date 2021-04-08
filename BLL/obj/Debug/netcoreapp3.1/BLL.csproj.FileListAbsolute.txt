@@ -1,0 +1,14 @@
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\Domain.dll
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\MyPrograms\DOt_Net\BLL\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\MyPrograms\DOt_Net\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

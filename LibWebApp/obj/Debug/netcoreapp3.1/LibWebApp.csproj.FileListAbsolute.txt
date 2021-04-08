@@ -65,3 +65,9 @@ D:\MyPrograms\DOt_Net\LibWebApp\obj\Debug\netcoreapp3.1\LibWebApp.genruntimeconf
 D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\BLL.dll
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\DAL.dll
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\Domain.dll
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\MyPrograms\DOt_Net\LibWebApp\bin\Debug\netcoreapp3.1\Domain.pdb

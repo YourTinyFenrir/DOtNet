@@ -1,12 +1,4 @@
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\testhost.dll
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.Views.dll
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.Views.pdb
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.deps.json
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.runtimeconfig.json
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.runtimeconfig.dev.json
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\appsettings.json
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.exe
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -51,7 +43,6 @@ D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Moq.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Ninject.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
@@ -137,8 +128,6 @@ D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\M
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.dll
-D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\LibraryWebApp.pdb
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.csprojAssemblyReference.cache
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.AssemblyInfoInputs.cache
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.AssemblyInfo.cs
@@ -147,3 +136,17 @@ D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.csproj.CopyCompl
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.dll
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.pdb
 D:\MyPrograms\DOt_Net\LibTests\obj\Debug\netcoreapp3.1\LibTests.genruntimeconfig.cache
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\BLL.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\DAL.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Domain.dll
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\MyPrograms\DOt_Net\LibTests\bin\Debug\netcoreapp3.1\Domain.pdb
