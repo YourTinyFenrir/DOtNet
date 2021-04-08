@@ -71,7 +71,7 @@ namespace LibWebApp.Controllers
 
 
         [HttpGet]
-        [Route("/lib/GetBooks")]
+        [Route("/lib/ReturnBook")]
         public List<BookDTO> ReturnBook(int? readerId)
         {
             ReaderDTO reader = service.GetReader(readerId);
